@@ -1,0 +1,44 @@
+big data =  big data sets, agroupation of information on a specific format normally csv
+data is undefined and information is organized data, provides context for meaningful interpretations and can identify correlations for supporting
+bussiness decisiones
+Data storage => efficient data bases, no sql or sql, indexes or clustering
+Data privacy => Policy creation and implementation, phsysical security and technical security (firewall and encryption)
+                -Personally Identifiable Information (PII) 
+                -Protected Health Information (PHI)
+HIPAA => Health Insurance Portability Accountability Act (USA)
+PIPEDA => Personal Information Protection and Electronic Documents Act (Canada)
+GDPR => General Data Protection Regulation (European Union)
+Privacy Act 1988 Australia
+PCI DSS => Privacy Credit Industry Data Security Standard 
+Encryption = Protects sensitive data by providing confidentiality
+    Original data = plain text
+    Encrypted data = ciphter text
+    'The quick brown fox' =>  !@#Sdsdf12123
+Encryption key: 
+    -Symmetric Encryption: One key for encryption and decryption, secret key.
+    -Assymetric Encryption: 2 keys, public and private (encryption and decryption).
+Data Lifecycle = Lifespan through various phases, data management must be applid to each phase.
+    -Create = Data gathering (cookies, surveys, metrics, etc), importing and automated actions, like data classification and encryption.
+    -Storage = Premises or public cloud, search high availability:
+                                                -RAID 1 = Disk mirroring, 2 copies of up to date data.
+                                                -RAID 5 = Disk mirroring, 3 copies of up to date data, data is distributed within them.
+                                                -Replication
+                -Classification
+                -Encryption
+    -Usage = -Data processing into information
+             - Principle of Least Privilege
+             -Auditing
+             -Data Loss Prevention policies
+    -Sharing = Internally and externally, limited number of data custodians by setting permissions.
+    -Archieve = Data backup policies and data retention policies. Data migration to slow performing storing media, fast = data used frequently.
+    -Destroy =  Deletion of data, laws, regulations and time span. 
+                - Data wiping
+                - Physical shredding
+
+DATA ARCHITECTURE
+SQL => Relational databse system (oracle, sqlserver, mysql) => Foreign keys to link tables together => each data row can store same types of data.
+        -Vertical scaling, increase power (CPU,RAM,IOPS,VideoCard)
+NO SQL => Processing Big Data (MongoDB) => each data row can store different types of data.
+        -Horizontal Scaling, clustering, load balancing and replication.
+
+ERD => ENTITY RELATIONSHIP DIAGRAM => relation between tables of a database.
